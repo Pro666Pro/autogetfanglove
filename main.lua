@@ -1,0 +1,8 @@
+game:GetService("ReplicatedStorage").RemoteEvents.SuitUpClown:FireServer()
+wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.KeyQuest:FireServer()
+wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.KeyAcquired:FireServer()
+wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.KeyBadgeReward:FireServer()
+wait(0.1)
