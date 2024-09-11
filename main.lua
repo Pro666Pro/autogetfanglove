@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "script by nexer " ,Duration = 1000, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "OK"})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "script by nexer, ez fan" ,Duration = 1000, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "OK"})
 _G["oog"] = false -- _G is same as shared, every script can access it, using _G.
 
 oogdead.Values.Activated:connect(function()
