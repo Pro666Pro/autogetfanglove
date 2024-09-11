@@ -1,5 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "script by nexer" ,Duration = 1000, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "OK"})
 
+wait(3)
+
 game:GetService("ReplicatedStorage").RemoteEvents.SuitUpClown:FireServer()
 wait(0.1)
 game:GetService("ReplicatedStorage").BindableEvents.KeyQuestStarted:FireServer()
